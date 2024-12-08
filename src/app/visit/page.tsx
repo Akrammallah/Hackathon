@@ -1,0 +1,95 @@
+import React from 'react'
+import Hero from '../componants/Hero'
+import Type from '../componants/Type'
+import Image from 'next/image'
+import img from "@/Images/Car (5).png"
+import img1 from "@/Images/View 2.png"
+import img2 from "@/Images/View 3.png"
+import img3 from "@/Images/Car (1).png"
+import img4 from "@/Images/Profill.png"
+import img5 from "@/Images/Profill (1).png"
+import { Button } from '@/components/ui/button'
+import VisitFor from '../componants/VisitFor'
+
+
+const visit = () => {
+  return (
+    <>
+      <div className='flex ' id='visit'>
+        <div className=''><Type/></div>
+        <div>
+        <div>
+        <Hero/>
+      </div>
+      <div className='flex'>
+        <div className='p-5 bg-slate-300 mt-6 text-white ml-48  '>
+          <div className='bg-blue-600 w-96 p-4 rounded-md '>
+          <span className=''>
+            <h1 className='text-2xl'>Sports cars wit the best <br />designs and acceleration</h1>
+            <p>Lorem ipsum dolor, sit amet <br />consectetur adipisicing elit.</p>
+          <Image src={img} alt='' className='ml-28'/>
+          </span>
+          </div>
+          <span className='flex mt-8 '>
+          <Image src={img1} alt='' width={100} height={100} className='mr-10'/>
+          <Image src={img2} alt=''width={100} height={100} className='mr-10'/>
+          <Image src={img3} alt='' width={100} height={100} className='bg-blue-500 p-4 rounded-md ml'/>
+          </span>
+          </div>
+          <div className='mt-12 bg-slate-300 w-96 text-gray-950 mr-12 ml-12 p-4'>
+      <h1 className='text-xl font-bold'>Nissan GT-R</h1>
+        <p className='mt-12 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates natus atque quia blanditiis quidem facere quibusda</p>
+
+        <div className='flex space-x-10 mt-4'>
+          <p>TYPE</p>
+          <p className='font-bold'>Sport</p>
+          <p>CAPICITY</p>
+          <p>2 PERSON</p>
+        </div>
+        <div className='flex space-x-10 mt-4'>
+          <p>Steering</p>
+          <p className='font-bold'>Manual</p>
+          <p>CAPICITY</p>
+          <p>70L</p>
+        </div>
+        <div className='flex justify-between p-6 mt-4'>
+          <p>$80.00/ days <br /><span className='line-through'>$100.00</span></p>
+          <Button className='bg-blue-700'>Rent Now</Button>
+          
+        </div>
+      </div>
+      </div>
+      <div className='ml-52 mt-6'>
+      <h1 className='font-bold'>Review <span className='bg-blue-700 rounded-full text-lg p-2 ml-2'>13</span></h1>
+        <div className='flex items-center mt-8'>
+          <Image src={img5} alt=''/>
+          <h1 className='font-bold ml-2 '>Alex Stanton <br /> <span className='font-thin'>CEO at Buklish</span></h1></div>
+          <p className='p-4 ml-12'>Lorem ipsum dolor sit amet consectetur  adipisicing elit. Fugiat numquam atque <br />sapiente rem sequi molestiae architecto pariatur minus, adipisci laudantium?
+          </p>
+          <div className='flex items-center mt-8'>
+          <Image src={img4} alt=''/>
+          <h1 className='font-bold ml-2 '>Skylar Dias <br /> <span className='font-thin'>CEO of Amazon</span></h1></div>
+          <p className='p-4 ml-12'>Lorem ipsum dolor sit amet consectetur  adipisicing elit. Fugiat numquam atque <br />sapiente rem sequi molestiae architecto pariatur minus, adipisci laudantium?
+          </p>
+          <div className=''>
+          <VisitFor/>
+
+        </div>
+        <div>
+          <VisitFor/>
+        </div>
+      </div>
+      
+      
+      
+        </div>
+        
+        
+      </div>
+      
+      
+    </>
+  )
+}
+
+export default visit
