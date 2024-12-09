@@ -75,7 +75,7 @@ const Cars = () => {
           <p>SUV</p>
       <Image src={Img4} alt="Card" width={300} height={200} className='mt-12 w-96' />
       <p className=' top-2 right-3 absolute'><Image  src={Img8} alt='' width={40}/></p>
-      <div className='flex space-x-3 p-2  mt-12'><span  className='flex items-center gap-2'><Image src={Img3} alt='' width={20} height={20}/>901</span>
+      <div className='flex space-x-3 p-2  mt-12'><span  className='flex items-center gap-2'><Image src={Img1} alt='' width={20} height={20}/>901</span>
       <span className='flex items-center sm:gap-2 gap-12'><FaRegDotCircle /> Manual
       </span>
       <span  className='flex items-center gap-14 sm:gap-2'><MdPeopleAlt /> 2 People
@@ -95,7 +95,7 @@ const Cars = () => {
           <p>Suv</p>
       <Image src={Img3} alt="Card" width={300} height={200} className='mt-12 w-96' />
       <p className=' top-2 right-3 absolute'><Image  src={Img8} alt='' width={40}/></p>
-      <div className='flex space-x-3 p-2  mt-12'><span  className='flex items-center gap-2'><Image src={Img4} alt='' width={20} height={20}/>901</span>
+      <div className='flex space-x-3 p-2  mt-12'><span  className='flex items-center gap-2'><Image src={Img1} alt='' width={20} height={20}/>901</span>
       <span className='flex items-center sm:gap-2 gap-12'><FaRegDotCircle /> Manual
       </span>
       <span  className='flex items-center gap-14 sm:gap-2'><MdPeopleAlt /> 2 People
@@ -111,7 +111,7 @@ const Cars = () => {
           <h1 className='font-bold'>All New Terrious</h1>
           <p>SUV</p>
       <Image src={Img2} alt="Card" width={300} height={200} className='mt-12 w-96' />
-      <div className='flex space-x-3 p-2  mt-12'><span  className='flex items-center gap-2'><Image src={Img5} alt='' width={20} height={20}/>901</span>
+      <div className='flex space-x-3 p-2  mt-12'><span  className='flex items-center gap-2'><Image src={Img1} alt='' width={20} height={20}/>901</span>
       <span className='flex items-center sm:gap-2 gap-12'><FaRegDotCircle /> Manual
       </span>
       <span  className='flex items-center gap-14 sm:gap-2'><MdPeopleAlt /> 2 People
@@ -128,7 +128,7 @@ const Cars = () => {
           <p>Suv</p>
       <Image src={Img3} alt="Card" width={300} height={200} className='mt-12 w-96' />
       <p className=' top-2 right-3 absolute'><Image  src={Img8} alt='' width={40}/></p>
-      <div className='flex space-x-3 p-2  mt-12'><span  className='flex items-center gap-2'><Image src={Img6} alt='' width={20} height={20}/>901</span>
+      <div className='flex space-x-3 p-2  mt-12'><span  className='flex items-center gap-2'><Image src={Img1} alt='' width={20} height={20}/>901</span>
       <span className='flex items-center sm:gap-2 gap-12'><FaRegDotCircle /> Manual
       </span>
       <span  className='flex items-center gap-14 sm:gap-2'><MdPeopleAlt /> 2 People
@@ -144,7 +144,7 @@ const Cars = () => {
           <h1 className='font-bold'>All New Terrious</h1>
           <p>SUV</p>
       <Image src={Img2} alt="Card" width={300} height={200} className='mt-12 w-96' />
-      <div className='flex space-x-3 p-2  mt-12'><span  className='flex items-center gap-2'><Image src={Img7} alt='' width={20} height={20}/>901</span>
+      <div className='flex space-x-3 p-2  mt-12'><span  className='flex items-center gap-2'><Image src={Img1} alt='' width={20} height={20}/>901</span>
       <span className='flex items-center sm:gap-2 gap-12'><FaRegDotCircle /> Manual
       </span>
       <span  className='flex items-center gap-14 sm:gap-2'><MdPeopleAlt /> 2 People
