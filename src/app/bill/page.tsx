@@ -3,6 +3,8 @@ import BillingInfo from "@/app/componants/BillingInfo";
 import RentalInfo from "@/app/componants/RentalInfo";
 import PaymentMethod from "@/app/componants/PaymentMethod";
 import Confirmation from "@/app/componants/Confirmation";
+import Image from "next/image";
+import img from "@/Images/Car (5).png"
 
 const bill: React.FC = () => {
   return (
@@ -20,7 +22,7 @@ const bill: React.FC = () => {
         <div className="space-y-6">
           <div className="bg-gray-50 p-6 rounded-lg shadow">
             <h2 className="text-lg font-semibold mb-4">Rental Summary</h2>
-            <img src="/car-image.png" alt="Car" className="w-full rounded-lg mb-4" />
+            <Image src={img} alt="Car" className="w-full rounded-lg mb-4" />
             <p className="text-gray-600">Nissan GT - R</p>
             <p className="text-sm text-gray-500">440+ Reviewers</p>
             <div className="mt-4 border-t border-gray-200 pt-4">

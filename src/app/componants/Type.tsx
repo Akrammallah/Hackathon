@@ -2,7 +2,7 @@ import React from 'react'
 
 const Type = () => {
   return (
-    <div className=' grid grid-cols-1 p-5 leading-10 bg-slate-200'>
+    <div className=' sm:grid  grid-cols-1 p-5 leading-10 bg-slate-200 hidden  '>
       <p>Type</p>
       <span className='font-bold mb-4'><input type="checkbox"  /> Sport (10)</span>
       <span className='font-bold mb-4'><input type="checkbox"  /> Suv (12)</span>

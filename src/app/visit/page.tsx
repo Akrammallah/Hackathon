@@ -21,22 +21,22 @@ const visit = () => {
         <div>
         <Hero/>
       </div>
-      <div className='flex'>
-        <div className='p-5 bg-slate-300 mt-6 text-white ml-48  '>
-          <div className='bg-blue-600 w-96 p-4 rounded-md '>
+      <div className='flex '>
+        <div className='p-5 bg-white mt-6 text-white sm:ml-48   '>
+          <div className='bg-blue-600 sm:w-96 w-[327] h-[232] p-4 rounded-md '>
           <span className=''>
             <h1 className='text-2xl'>Sports cars wit the best <br />designs and acceleration</h1>
             <p>Lorem ipsum dolor, sit amet <br />consectetur adipisicing elit.</p>
-          <Image src={img} alt='' className='ml-28'/>
+          <Image src={img} alt='' className='sm:ml-28 ml-16'/>
           </span>
           </div>
           <span className='flex mt-8 '>
-          <Image src={img1} alt='' width={100} height={100} className='mr-10'/>
-          <Image src={img2} alt=''width={100} height={100} className='mr-10'/>
+          <Image src={img1} alt='' width={100} height={100} className='sm:mr-10 mr-4'/>
+          <Image src={img2} alt=''width={100} height={100} className='sm:mr-10 mr-4'/>
           <Image src={img3} alt='' width={100} height={100} className='bg-blue-500 p-4 rounded-md ml'/>
           </span>
           </div>
-          <div className='mt-12 bg-slate-300 w-96 text-gray-950 mr-12 ml-12 p-4'>
+          <div className='mt-12 hidden sm:block bg-slate-300 w-96 text-gray-950 mr-12 sm:ml-12 p-4'>
       <h1 className='text-xl font-bold'>Nissan GT-R</h1>
         <p className='mt-12 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates natus atque quia blanditiis quidem facere quibusda</p>
 
@@ -59,17 +59,17 @@ const visit = () => {
         </div>
       </div>
       </div>
-      <div className='ml-52 mt-6'>
-      <h1 className='font-bold'>Review <span className='bg-blue-700 rounded-full text-lg p-2 ml-2'>13</span></h1>
+      <div className='sm:ml-52 mt-6'>
+      <h1 className='font-bold ml-4 sm:ml-0'>Review <span className='bg-blue-700 rounded-full text-lg p-2 ml-2'>13</span></h1>
         <div className='flex items-center mt-8'>
           <Image src={img5} alt=''/>
           <h1 className='font-bold ml-2 '>Alex Stanton <br /> <span className='font-thin'>CEO at Buklish</span></h1></div>
-          <p className='p-4 ml-12'>Lorem ipsum dolor sit amet consectetur  adipisicing elit. Fugiat numquam atque <br />sapiente rem sequi molestiae architecto pariatur minus, adipisci laudantium?
+          <p className='p-4 sm:ml-12'>Lorem ipsum dolor sit amet consectetur  adipisicing elit. Fugiat numquam atque <br />sapiente rem sequi molestiae architecto pariatur minus, adipisci laudantium?
           </p>
           <div className='flex items-center mt-8'>
           <Image src={img4} alt=''/>
           <h1 className='font-bold ml-2 '>Skylar Dias <br /> <span className='font-thin'>CEO of Amazon</span></h1></div>
-          <p className='p-4 ml-12'>Lorem ipsum dolor sit amet consectetur  adipisicing elit. Fugiat numquam atque <br />sapiente rem sequi molestiae architecto pariatur minus, adipisci laudantium?
+          <p className='p-4 sm:ml-12 '>Lorem ipsum dolor sit amet consectetur  adipisicing elit. Fugiat numquam atque <br />sapiente rem sequi molestiae architecto pariatur minus, adipisci laudantium?
           </p>
           <div className=''>
           <VisitFor/>

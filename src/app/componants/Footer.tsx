@@ -11,7 +11,7 @@ import img2 from "@/Images/AppStore.png"
 const Footer: React.FC = () => {
   return (
     <footer className="bg-white text-gray-900 py-8 mt-24">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 px-4">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
         {/* Exclusive */}
         <div>
           <h3 className="font-bold text-lg mb-4 text-blue-600">MORENT</h3>
@@ -33,16 +33,16 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Support */}
-        <div>
+        {/* <div>
           <h3 className="font-bold text-lg mb-4">Support</h3>
           <p>11 Bijoy Sarani, Dhaka,</p>
           <p>DH 1215, Bangladesh</p>
           <p>Email: exclusive@gm.com</p>
           <p>Phone: +88015 66666 9999</p>
-        </div>
+        </div> */}
 
         {/* Account */}
-        <div>
+        <div className="sm:ml-48">
           <h3 className="font-bold text-lg mb-4">Account</h3>
           <ul>
             <li className="mb-2 hover:underline cursor-pointer">My Account</li>
@@ -54,8 +54,8 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Quick Link */}
-        <div>
-          <h3 className="font-bold text-lg mb-4">Quick Link</h3>
+        <div className="sm:ml-24">
+          <h3 className="font-bold text-lg mb-4 ">Quick Link</h3>
           <ul>
             <li className="mb-2 hover:underline cursor-pointer">Privacy Policy</li>
             <li className="mb-2 hover:underline cursor-pointer">Terms of Use</li>
@@ -72,11 +72,13 @@ const Footer: React.FC = () => {
             <Image
               src={img}
               alt="Google Play"
-              className="h-10 cursor-pointer hidden sm:block"
+              width={50}
+              className="h-50 cursor-pointer hidden sm:block"
             />
             <Image
               src={img2}
               alt="App Store"
+              
               className="h-10 cursor-pointer "
             />
           </div>

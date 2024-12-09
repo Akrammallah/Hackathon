@@ -21,20 +21,20 @@ import Type from '../componants/Type'
 const detailcar = () => {
   return (
     <>
-<div className='flex'>
-  <div className=''>
+<div className='sm:flex grid grid-cols-1  '>
+  <div className='hidden sm:block'>
     <Type/>
   </div>
   <div>
   <div className='' id='detailcar'>
       <Hero/>
     </div>
-    <div className=' container m-auto grid-cols-4  sm:grid-cols-2 sm:flex  md:grid-cols-4 justify-between items-center mt-12 space-x-4  '>
-        <div className='p-4 bg-slate-300  rounded-md '>
+    <div className=' container m-auto grid-cols-1  sm:grid-cols-2 sm:flex  md:grid-cols-4 justify-between items-center mt-12 sm:space-x-4   '>
+        <div className='p-4 bg-slate-300  rounded-md  '>
           <h1>Koenigsegg</h1>
           <p>Sport</p>
-      <Image src={Img3} alt="Card" width={300} height={200} className='mt-12' />
-      <div className='flex space-x-3 p-2  mt-12'><span  className='flex items-center gap-2'><Image src={Img1} alt='' width={20} height={20}/>901</span>
+      <Image src={Img3} alt="Card" width={300} height={200} className='mt-12 w-96' />
+      <div className='flex  space-x-3 p-2  mt-12'><span  className='flex items-center gap-2'><Image src={Img1} alt='' width={20} height={20}/>901</span>
       <span className='flex items-center gap-2'><FaRegDotCircle /> Manual
       </span>
       <span  className='flex items-center gap-2'><MdPeopleAlt /> 2 People
@@ -46,7 +46,7 @@ const detailcar = () => {
         </div>
         </div>
         
-        <div className='p-4 bg-slate-300 rounded-md'>
+        <div className='p-4 bg-white rounded-md'>
           <h1>Koenigsegg</h1>
           <p>Sport</p>
       <Image src={Img2} alt="Card" width={300} height={200} className='mt-12' />
@@ -62,7 +62,7 @@ const detailcar = () => {
         </div>
         </div>
         
-        <div className='p-4 bg-slate-300'>
+        <div className='p-4 bg-white'>
           <h1>Koenigsegg</h1>
           <p>Sport</p>
       <Image src={Img3} alt="Card" width={300} height={200} className='mt-12' />
