@@ -15,19 +15,20 @@ import VisitFor from '../componants/VisitFor'
 const visit = () => {
   return (
     <>
-      <div className='flex ' id='visit'>
-        <div className=''><Type/></div>
-        <div>
-        <div>
+      <div className='flex justify-between items-start ' id='visit'>
+        <div className='w-[100%]'><Type/></div>
+        <div className='mr-48'>
+        <div className='items-start w-[100%]'>
         <Hero/>
       </div>
-      <div className='flex '>
-        <div className='p-5 bg-white mt-6 text-white sm:ml-48   '>
-          <div className='bg-blue-600 sm:w-96 w-[327] h-[232] p-4 rounded-md '>
+      
+      <div className='flex   '>
+        <div className='p-5 bg-white mt-6 text-white      '>
+          <div className='bg-blue-600  mt-6 p-4 rounded-md w-[100%] '>
           <span className=''>
             <h1 className='text-2xl'>Sports cars wit the best <br />designs and acceleration</h1>
             <p>Lorem ipsum dolor, sit amet <br />consectetur adipisicing elit.</p>
-          <Image src={img} alt='' className='sm:ml-28 ml-16'/>
+          <Image src={img} alt='' className='sm:ml-0 ml-16'/>
           </span>
           </div>
           <span className='flex mt-8 '>
@@ -36,7 +37,7 @@ const visit = () => {
           <Image src={img3} alt='' width={100} height={100} className='bg-blue-500 p-4 rounded-md ml'/>
           </span>
           </div>
-          <div className='mt-12 hidden sm:block bg-slate-300 w-96 text-gray-950 mr-12 sm:ml-12 p-4'>
+          <div className=' hidden sm:block bg-blend-lighten w-[50%] mt-16 rounded-md   text-gray-950 mr-12 p-4'>
       <h1 className='text-xl font-bold'>Nissan GT-R</h1>
         <p className='mt-12 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates natus atque quia blanditiis quidem facere quibusda</p>
 
@@ -59,7 +60,7 @@ const visit = () => {
         </div>
       </div>
       </div>
-      <div className='sm:ml-52 mt-6'>
+      <div className=' mt-6'>
       <h1 className='font-bold ml-4 sm:ml-0'>Review <span className='bg-blue-700 rounded-full text-lg p-2 ml-2'>13</span></h1>
         <div className='flex items-center mt-8'>
           <Image src={img5} alt=''/>

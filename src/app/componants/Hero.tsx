@@ -7,7 +7,7 @@ const Hero = () => {
     <>
     <div className=' container m-auto sm:flex justify-between items-center sm:mt-6 mt-10 grid-cols-1'>
     <div className='bg-white sm:p-4 '>
-        <h1 className='flex ml-4 font-bold'> <span className='text-blue-800 shadow-2xl shadow-blue-700 mr-1 text-center'><GoDotFill />
+        <h1 className='flex ml-4 font-bold'> <span className='text-blue-800 shadow-2xl shadow-blue-700 mr-1 text-center mt-1'><GoDotFill />
         </span>Pick-Up</h1>
       </div>
       <div className='flex sm:space-x-6 space-x-2 ml-4 sm:ml-0 mb-6 sm:mb-0 '>
@@ -29,7 +29,7 @@ const Hero = () => {
       </div>
 
       <div className='flex sm:space-x-6  ml-4 sm:ml-0 mb-6 sm:mb-0 '>
-        <h1 className='flex ml-4 font-bold mt-4 sm:mt-0'> <span className='text-blue-800 shadow-2xl  shadow-blue-700 mr-1 text-center'><GoDotFill />
+        <h1 className='flex ml-4 font-bold mt-4 sm:mt-0'> <span className='text-blue-800 shadow-2xl  shadow-blue-700 mr-1 text-center mt-1'><GoDotFill />
         </span>Drop-Off</h1>
       </div>
       <div className='flex space-x-6 ml-4 sm:ml-0  '>

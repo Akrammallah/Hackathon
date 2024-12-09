@@ -17,7 +17,7 @@ const visitFor = () => {
       <div className=' container m-auto grid-cols-1 sm:grid-cols-2 sm:flex md:grid-cols-4 justify-between items-center mt-12 space-x-4  '>
         
         
-        <div className='p-4 bg-slate-300 rounded-md'>
+        <div className='p-4 bg-blend-hard-light rounded-md'>
           <h1>Koenigsegg</h1>
           <p>Sport</p>
       <Image src={Img2} alt="Card" width={300} height={200} className='mt-12' />
@@ -33,7 +33,7 @@ const visitFor = () => {
         </div>
         </div>
         
-        <div className='p-4 bg-slate-300'>
+        <div className='p-4bg-blend-hard-light'>
           <h1>Koenigsegg</h1>
           <p>Sport</p>
       <Image src={Img3} alt="Card" width={300} height={200} className='mt-12' />
@@ -49,7 +49,7 @@ const visitFor = () => {
         </div>
         </div>
         
-        <div className='p-4 bg-slate-300'>
+        <div className='p-4bg-blend-hard-light'>
           <h1>Koenigsegg</h1>
           <p>Sport</p>
       <Image src={Img2} alt="Card" width={300} height={200} className='mt-12' />
