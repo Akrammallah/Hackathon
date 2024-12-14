@@ -11,15 +11,15 @@ const Hero = () => {
         </span>Pick-Up</h1>
       </div>
       <div className='flex sm:space-x-6 space-x-2 ml-4 sm:ml-0 mb-6 sm:mb-0 '>
-        <div className='shadow-xl shadow-gray-300'>
+        <div>
           <h1 className='font-bold'>Location</h1>
           <p>select your city</p>
         </div>
-        <div className='shadow-xl shadow-gray-300'>
+        <div>
           <h1 className='font-bold'>Date</h1>
           <p>select your date</p>
         </div>
-        <div className='shadow-xl shadow-gray-300'>
+        <div>
           <h1 className='font-bold'>Time</h1>
           <p>select your Time</p>
         </div>
@@ -33,15 +33,15 @@ const Hero = () => {
         </span>Drop-Off</h1>
       </div>
       <div className='flex space-x-6 ml-4 sm:ml-0  '>
-        <div className='shadow-xl shadow-gray-300'>
+        <div>
           <h1 className='font-bold'>Location</h1>
           <p>select your city</p>
         </div>
-        <div className='shadow-xl shadow-gray-300'>
+        <div>
           <h1 className='font-bold'>Date</h1>
           <p>select your date</p>
         </div>
-        <div className='shadow-xl shadow-gray-300'>
+        <div>
           <h1 className='font-bold'>Time</h1>
           <p>select your Time</p>
         </div>
