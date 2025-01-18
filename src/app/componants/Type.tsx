@@ -14,9 +14,9 @@ const Type = () => {
       <span className='font-bold mb-4'><input type="checkbox"  /> 2 person (10)</span>
       <span className='font-bold mb-4'><input type="checkbox"  /> 4 person (10)</span>
       <span className='font-bold mb-4'><input type="checkbox"  /> 6 person (10)</span>
-      <span className='font-bold mb-4'><input type="checkbox"  /> 8 person (10)</span>
+      <span className='font-bold mb-4 '><input type="checkbox"  /> 8 person (10)</span>
       <h4>PRICE</h4>
-      <span><input type="range"  /> <br />Max.$100.00 (10)</span>
+      <span ><input  type="range"  /> <br />Max.$100.00 (10)</span>
       
     </div>
   )

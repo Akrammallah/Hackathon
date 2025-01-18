@@ -1,3 +1,4 @@
+'use client'
 import DashboardLayout from '@/app/componants/DashBoardLayout';
 import TopCarsChart from '@/app/componants/chart';
 import RecentTransactions from '@/app/componants/Table';

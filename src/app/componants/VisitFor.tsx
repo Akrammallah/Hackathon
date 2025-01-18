@@ -18,9 +18,9 @@ const visitFor = () => {
         
         
         <div className='p-4 bg-blend-hard-light rounded-md'>
-          <h1>Koenigsegg</h1>
+          <h1 className='font-bold'>vegnar</h1>
           <p>Sport</p>
-      <Image src={Img2} alt="Card" width={300} height={200} className='mt-12' />
+      <Image src={Img2} alt="Card" width={300} height={200} className='mt-12 w-[96vw]' />
       <div className='flex space-x-3 p-2  mt-12'><span  className='flex items-center gap-2'><Image src={Img1} alt='' width={20} height={20}/>901</span>
       <span className='flex items-center gap-2'><FaRegDotCircle /> Manual
       </span>

@@ -24,12 +24,12 @@ const visit = () => {
       
       <div className='flex   '>
         <div className='p-5 bg-white mt-6 text-white      '>
-          <div className='bg-blue-600  mt-6 p-4 rounded-md w-[100%] '>
-          <span className=''>
-            <h1 className='text-2xl'>Sports cars wit the best <br />designs and acceleration</h1>
+          <div className='bg-blue-600 w-[50vw] sm:w-[28vw]   mt-6 p-4 rounded-md  '>
+          <h1 className=''>
+            <span className='text-2xl'>Sports cars wit the best <br />designs and acceleration</span>
             <p>Lorem ipsum dolor, sit amet <br />consectetur adipisicing elit.</p>
-          <Image src={img} alt='' className='sm:ml-0 ml-16'/>
-          </span>
+          <Image src={img} alt='' className='sm:ml-28 ml-16'/>
+          </h1>
           </div>
           <span className='flex mt-8 '>
           <Image src={img1} alt='' width={100} height={100} className='sm:mr-10 mr-4'/>
@@ -60,7 +60,7 @@ const visit = () => {
         </div>
       </div>
       </div>
-      <div className=' mt-6'>
+      <div className=' mt-6 mr-36 sm:mr-0'>
       <h1 className='font-bold ml-4 sm:ml-0'>Review <span className='bg-blue-700 rounded-full text-lg p-2 ml-2'>13</span></h1>
         <div className='flex items-center mt-8'>
           <Image src={img5} alt=''/>
@@ -72,7 +72,7 @@ const visit = () => {
           <h1 className='font-bold ml-2 '>Skylar Dias <br /> <span className='font-thin'>CEO of Amazon</span></h1></div>
           <p className='p-4 sm:ml-12 '>Lorem ipsum dolor sit amet consectetur  adipisicing elit. Fugiat numquam atque <br />sapiente rem sequi molestiae architecto pariatur minus, adipisci laudantium?
           </p>
-          <div className=''>
+          <div className='w-full'>
           <VisitFor/>
 
         </div>

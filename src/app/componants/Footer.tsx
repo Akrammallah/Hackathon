@@ -17,11 +17,11 @@ const Footer: React.FC = () => {
           <h3 className="font-bold text-lg mb-4 text-blue-600">MORENT</h3>
           
           <p className="mb-4">Our vision is to provide convenience <br /> and help increase your sales business</p>
-          <form className="flex">
+          <form className="sm:flex w-16 hidden  ">
             <input 
               type="email"
               placeholder="Enter your email"
-              className="p-2 flex-1 rounded-l-md text-black w-24"
+              className="p-2 flex-1 rounded-l-md text-black  "
             />
             <button
               type="submit"
