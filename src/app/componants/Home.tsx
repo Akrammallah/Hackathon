@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Home: React.FC = () => {
   return (
-    <div className=" container m-auto grid grid-cols-1 md:grid-cols-2 sm:space-x-10 mt-6 mr-[2vw] ">
+    <div className="  grid grid-cols-1 md:grid-cols-2 sm:justify-start  lg:gap-x-10 mt-6 md:ml-12 ">
       <div className="w-[640] h-[360] bg-[#54A6FF]  text-white p-12 rounded-md mb-6 sm:mb-0">
         <h1 className="text-4xl md:4xl text-white mb-4">The Best Platform <br />for Car Rental</h1>
         <p className="mb-4 sm:mb-6">Ease of doing a car rental safely and <br /> reliably. Of course at a low price.</p>
@@ -15,10 +15,10 @@ const Home: React.FC = () => {
       </div>
       
       <div>
-      <div className="w-[640] h-[360] bg-[#103293] hidden sm:block text-white p-12 rounded-md">
+      <div className="w-[640] h-[360] bg-[#103293] hidden md:block text-white p-12 rounded-md mr-12">
         <h1 className="text-4xl md:3xl text-white mb-4">Easy way to rent a car at a low price for Car Rental</h1>
         <p className="mb-4">Providing cheap car rental services and <br />safe and comfortable facilities.</p>
-        <Link href={'/bill'}><button className="py-2 px-4 rounded-md bg-blue-600 text-white hover:bg-green-700">Book Now</button>
+        <Link href={''}><button className="py-2 px-4 rounded-md bg-blue-600 text-white hover:bg-green-700">Book Now</button>
         </Link><Image className="sm:ml-24" src={img1} alt="image" width={400} height={400} />
       </div>
      

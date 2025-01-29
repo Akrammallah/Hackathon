@@ -1,9 +1,35 @@
-import React from "react";
+'use client'
+import { client } from "@/sanity/lib/client";
+import { querry } from "@/sanity/schemaTypes/querry";
+import React,{useState} from "react";
+import { useEffect } from "react";
+
+
 
 const SearchBar: React.FC = () => {
+  const [searchTerm, setSearchTerm] = useState([]);
+  const [searchData, setSearchData] = useState<any>(searchTerm);
+  useEffect(() => {
+    const data = async () => {
+      const res = await client.fetch(querry);
+      setSearchTerm(res);
+      setSearchData(res)
+      
+    };
+    data();
+    const filter = (e:any)=>{
+      setSearchData(searchTerm.filter((item:any) => item.name.toLowerCase().includes(e.target.value.toLowerCase())))
+      
+    }
+    
+  },[])
   return (
     <div className="flex items-center border rounded-lg px-4 py-2 w-full max-w-md mx-auto shadow-md bg-white">
-      {/* Search Icon */}
+      {/* {
+        searchData.map((item:any) => (
+          <div key={item._id}>{item.name}</div>
+        ))
+      } */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -23,6 +49,8 @@ const SearchBar: React.FC = () => {
       <input
         type="text"
         placeholder="Search something here"
+        // value={''}
+        // onChange={(e:any) => setSearchTerm(e.target.value)}
         className="flex-grow px-4 py-1 text-sm text-gray-700 focus:outline-none"
       />
 

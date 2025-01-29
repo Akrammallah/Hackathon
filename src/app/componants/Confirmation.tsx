@@ -1,5 +1,36 @@
+'use client'
+import { ToastContainer, toast, Bounce } from 'react-toastify';
 const Confirmation: React.FC = () => {
+
+  const handleOrder = () => {
+    toast('Order succesfully submitted', {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      transition: Bounce,
+      });
+   
+  }
   return (
+    <>
+    <ToastContainer
+    position="top-right"
+    autoClose={5000}
+    hideProgressBar={false}
+    newestOnTop={false}
+    closeOnClick={false}
+    rtl={false}
+    pauseOnFocusLoss
+    draggable
+    pauseOnHover
+    theme="dark"
+    
+    />
     <div className="space-y-4">
       <h2 className="text-lg font-semibold">Confirmation</h2>
       <p className="text-sm text-gray-600">
@@ -15,10 +46,11 @@ const Confirmation: React.FC = () => {
           <span>I agree with the terms and conditions.</span>
         </label>
       </div>
-      <button className="w-full bg-blue-500 text-white py-2 rounded-lg">
+      <button onClick={()=>handleOrder()} className="w-full bg-blue-500 text-white py-2 rounded-lg">
         Rent Now
       </button>
     </div>
+    </>
   );
 };
 

@@ -7,7 +7,7 @@ import {ArrowUpDown} from 'lucide-react'
 const Hero = () => {
   return (
     <>
-    <div className=' container m-auto sm:flex justify-between items-center sm:mt-6 mt-10 grid-cols-1 ml-4 text-2xl sm:text-lg'>
+    <div className=' container m-auto sm:flex justify-between items-center sm:mt-6 mt-10 grid-cols-1 lg:grid-cols-2 ml-4 text-2xl sm:text-lg'>
     <div className='bg-white sm:p-4 '>
         <h1 className='flex ml-4 font-bold'> <span className='text-blue-800 shadow-2xl shadow-blue-700 mr-1 text-center mt-1'><GoDotFill />
         </span>Pick-Up</h1>

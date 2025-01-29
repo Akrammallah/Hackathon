@@ -4,40 +4,40 @@ import Home from "./componants/Home";
 import Hero from "./componants/Hero";
 // import Billing from './componants/Billing'
 // import Main from '@/app/componants/Main';
-import Card from "./componants/Card";
-import Cars from "./componants/Cars";
-// import { client } from "@/sanity/lib/client";
-// import Image from "next/image";
-// import { urlFor } from "@/sanity/lib/image";
+// import Card from "./componants/Card";
+
+import Link from "next/link";
+import Car from './cars/page';
+
+
+
 // import { Contact, Fuel, Heart, ShipWheel } from "lucide-react";
 // import { GoPeople } from "react-icons/go";
 // import { Button } from "@/components/ui/button";
 // import Type from './componants/Type'
 // import FooterSec from './componants/Last'
 
-// async function FetchData() {
-//   const res = await client.fetch(`*[_type=="products"]{
-//   title,image,price,people,manual,data,priceData,
-//     "slug":slug.current
-//     }[0..4]
-// `);
-//   return res;
-// }
 
-const page =  () => {
-  // const data: any = await FetchData();
+
+ const page =  () => {
+  
   return (
     <>
       <div>
         <Home />
         <Hero />
-        <Card/>
-        <Cars/>
+        
+        <Car/>
+        
+        </div>
+        
+        {/* <Card/> */}
+        {/* <Cars/>  */}
         {/* <Type/> */}
         {/* <Main/> */}
         {/* <Billing/> */}
         {/* <FooterSec/> */}
-      </div>
+      
       {/* <div className=" container  mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 justify-between items-center   gap-x-10">
         {data.map((res: any, id: any) => (
           <div key={id} className=" bg-gray-400  rounded-md w-full ">

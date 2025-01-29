@@ -14,6 +14,16 @@ export default {
       title: 'Brand',
       description: 'Brand of the car (e.g., Nissan, Tesla, etc.)',
     },
+
+    {
+    name:'slug',
+    type:'slug',
+    title:'Slug',
+    options: {
+      source: 'name',
+      maxLength: 96
+    }
+    },
     {
       name: 'type',
       type: 'string',

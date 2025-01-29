@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import SearchBar from './Search'
 import { FaHeart } from "react-icons/fa6";
@@ -44,7 +45,7 @@ transition={Bounce}
     
     <div className=' container m-auto p-5 flex justify-between bg-white items-center border-b-2 border-blue-200 sticky z-10 top-0 backdrop:blur supports-[backdrop:filter]:bg-background/80 '>
       <div className='sm:flex grid-cols-1 mt-4 sm:mt-0'>
-      <Link href={'/dashboard'}><h1 className='text-blue-700 text-4xl font-bold mr-24'>MORENT</h1></Link>
+      <Link href={'/detailcar'}><h1 className='text-blue-700 text-4xl font-bold mr-24'>MORENT</h1></Link>
       <span className='mt-6 sm:mt-0'><SearchBar/></span>
       </div>
       <div className='sm:flex space-x-3'>
