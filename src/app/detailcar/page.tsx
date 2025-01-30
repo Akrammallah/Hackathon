@@ -14,7 +14,7 @@ import { client } from '@/sanity/lib/client'
 
 
 
-const detailcar = () => {
+const Detailcar = () => {
   const [car, setCar] = useState([]);
   useEffect(() => {
     const fetchCars = async () => {
@@ -59,4 +59,4 @@ const detailcar = () => {
   )
 }
 
-export default detailcar;
+export default Detailcar;

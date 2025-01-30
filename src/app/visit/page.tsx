@@ -16,7 +16,7 @@ import { client } from '@/sanity/lib/client'
 
 
 
-const visit = () => {
+const Visit = () => {
   const [data, setData] = useState([])
 useEffect(()=>{
   const res = async ()=>{
@@ -122,4 +122,4 @@ useEffect(()=>{
   )
 }
 
-export default visit
+export default Visit
